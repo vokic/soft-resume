@@ -100,7 +100,7 @@ body.scale-cv{
 
 /* Generate PDF button */
 
-.generate-pdf{
+ .generate-pdf{
     display: none;
     position: absolute;
     top: 2.2rem;
@@ -108,7 +108,7 @@ body.scale-cv{
     font-size: 1.2rem;
     color: var(--text-color);
     cursor: pointer;
-}
+} 
 
 .generate-pdf:hover{
     columns: var(--title-color);
@@ -262,11 +262,10 @@ gap: 3rem;
 display: inline-block;
 border: 2px solid var(--text-color);
 color: var(--title-color);
-padding: 1rem 2rem;
+padding: .5rem 1rem;
 border-radius: .25rem;
 transition: .3s;
 font-weight: var(--font-medium);
-margin-top: var(--mb-3);
 }
 
 .home__button-mobile:hover{
@@ -632,6 +631,8 @@ margin-bottom: var(--mb-3);
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem .5rem;
     }
+
+
 }
 
 /* Modified classes for large screen sizes */
@@ -684,9 +685,7 @@ margin-bottom: var(--mb-3);
         gap: 1.5rem;
     }
 
-    .home__button-mobile{
-        display: none;
-    }
+
 
     .references__container{
         grid-template-columns: repeat(2, 1fr);
@@ -696,6 +695,7 @@ margin-bottom: var(--mb-3);
         grid-template-columns: repeat(4, max-content);
         column-gap: 3.5rem;
     }
+
 
     /* .interests__container{
         grid-template-columns: repeat(4, max-content);
