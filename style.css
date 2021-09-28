@@ -362,6 +362,7 @@ display: flex;
 
 .experience__company{
     text-decoration: none;
+    color: var(--text-color)
 }
 
 /* Skills and languages*/
