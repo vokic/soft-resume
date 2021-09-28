@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofija Todorovic Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="" class="nav__logo">Todorovic Sofija</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"
+                ><i class="bx bx-home nav__icon"></i> Home</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"
+                ><i class="bx bx-user nav__icon"></i> Personal</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="bx bx-receipt nav__icon"></i> Languages</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link"
+                ><i class="bx bx-book nav__icon"></i> Education</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link"
+                ><i class="bx bx-briefcase nav__icon"></i> Experience</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link"
+                ><i class="bx bx-award nav__icon"></i> Skills</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#articles" class="nav__link"
+                ><i class="bx bx-link-external nav__icon"></i> Articles</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="div nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt nav__icon"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div are generated in PDF -->
+      <div class="resume" id="area-cv">
+        <!-- Left start -->
+        <div class="resume__left">
+          <!-- Home -->
+          <section class="home" id="home">
+            <div class="home__dontainer section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="img/profile2.jpg" alt="" class="home__img" />
+                <h1 class="home__title">TODOROVIC <b>SOFIJA</b></h1>
+                <h3 class="home__profession">Program project manager/coordinator</h3>
+                <!-- Button to download CV as premade PDF, available for mobile. -->
+
+                <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                <div>
+                  <a
+                    download=""
+                    href="pdf/Sofija-Todorovic-CV.pdf"
+                    class="home__button-mobile"
+                    >Download resume</a
+                  >
+                </div>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>Ivana Milutinovica 49,</br>11211 Belgrade, Serbia
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i
+                  > <a class="email__add" href="mailto:sofkatodorovic@gmail.com">sofkatodorovic@gmail.com</a> 
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>
+                  <a class="email__add" href="tel:+38163484568">+381 63 484 568</a>
+                </span>
+                <span class="home__information">
+                  <i class='bx bx-globe home__icon'></i>Serbian
+                </span>
+
+                
+                <span class="home__information">
+                  <i class='bx bx-face home__icon'></i>Female
+                </span>
+
+                <span class="home__information">
+                  <i class='bx bx-cake home__icon'></i>02/01/1992
+                </span>
+                
+
+              </div>
+            </div>
+            <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+          </section>
+
+          <!-- Dark/light theme button -->
+
+          
+
+          <!-- Social -->
+
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__container bd-grid">
+              <a href="linkedin.com/in/sofija-todorović-a45b47182" target="_blank" class="social__link">
+                <i class="bx bxl-linkedin-square social__icon"></i> linkedin
+              </a>
+              <a href="https://twitter.com/sodzinjon" target="_blank" class="social__link">
+                <i class="bx bxl-twitter social__icon"></i> twitter
+              </a>
+              <a href="skype:sofkatodorovic?chat" target="_blank" class="social__link">
+                <i class='bx bxl-skype social__icon'></i> skype
+
+              </a>
+            </div>
+          </section>
+
+          <!-- Profile -->
+
+          <section class="profile section" id="profile">
+            <h2 class="section-title">PERSONAL</h2>
+            <p class="profile__description">
+              Born in Belgrade in 1992., graduated from the First Belgrade Gymnasium, and studied at the Faculty of Law in Belgrade. Before joining BIRN (Balkan Research Network) in 2019. I was a member of the Youth Initiative for Human Rights for three years, where I mainly dealt with transitional justice and democratic issues. Prior to the Initiative, I was an activist, lecturing at various youth human rights schools and exchange programs related to reconciliation. I am the "Icebreaker" award winner presented by The Liberal Democratic Party (LDP) in 2018, and BeFem in 2020.
+            </p>
+          </section>
+
+
+
+          <!-- Skills -->
+
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Languages</h2>
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span><b>Serbian, Bosnian, Croatian</b>: Native
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span><b>English</b>: C1 level
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span><b>Russian</b>: A1 level
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span><b>Spanish </b>: A1 level
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span><b>Albanian </b>: A1 level
+                </li>
+              </ul>
+
+            </div>
+          </section>
+
+<!-- Interests -->
+
+<section class="interests section">
+  <h2 class="section-title">Interests</h2>
+  <div class="interests__container bd-grid">
+      <div class="interests__content">
+          <i class='bx bx-headphone interests__icon' ></i>
+          <span class="interests__name">Music</span>
+      </div>
+
+      <div class="interests__content">
+          <i class="bx bxs-plane-alt interests__icon"></i>
+          <span class="interests__name">Travel</span>
+      </div>
+    </div>
+      <div class="interests__container bd-grid">
+      <div class="interests__content">
+          <i class="bx bx-book interests__icon"></i>
+          <span class="interests__name">Reading</span>
+      </div>
+
+      <div class="interests__content">
+          <i class="bx bx-dumbbell interests__icon"></i>
+          <span class="interests__name">Workout</span>
+      </div>
+</div>
+</section>
+
+        </div>
+
+
+
+        <!-- Left end -->
+
+        <!-- Right start -->
+        <div class="resume__right">
+
+          <!-- Education and training -->
+
+          <section class="education section" id="education">
+            <h2 class="section-title">Education and training</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">BA in Law Studies
+                  </h3>
+                  <span class="education__studies"
+                    >Faculty of Law, University of Belgrade, Serbia
+                    </span
+                  >
+                  <span class="education__year">2010 – 2019</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Program: This is Kosovo</h3>
+                  <span class="education__studies"
+                    >Youth Initiative for Human Rights, Belgrade, Serbia
+                    </span
+                  >
+                  <p>Student visit to Kosovo insitutions</p>
+                  <span class="education__year">01/2015 – 01/2015</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                   <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Human Rights Defenders</h3>
+                  <span class="education__studies"
+                    >Youth Initiative for Human Rights, Belgrade, Serbia</span
+                  >
+                  <span class="education__year">05/2015</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">”One million bones”</h3>
+                  <span class="education__studies"
+                    >Post-conflict Research Center, Bosnia and Herzegovina</span
+                  >
+                  <p>
+                    Large-scale social arts practice which combines education,
+                    hands-on art making, and public installations to raise
+                    awareness of ongoing genocides and mass atrocities.
+                  </p>
+                  <span class="education__year">07/2015</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Justice without reconciliation? War crimes and trials in
+                    Europe since 1945
+                  </h3>
+                  <span class="education__studies"
+                    >OFAJ program - The Franco-German Youth Office, exchange
+                    programme</span
+                  >
+                  <p>
+                    The overall aim of the program was to explore and discuss
+                    the question of war crimes and war crime trials in four
+                    countries (France, Germany, Serbia, Kosovo) especially their
+                    role in post-warreconciliation processes. The Program was
+                    consisted of three phases, the first part has been held in
+                    Dachau (Germany) and The Hague (Netherlands). It will dealt
+                    with the topics of crimes committed by the German National
+                    Socialists during World War II and their impact on
+                    societies; the development of international and national
+                    criminal law; the establishment and the role of the
+                    International Criminal Tribunal for the former Yugoslavia
+                    for the reconciliation in the South Eastern Europe. The
+                    second phase of project was held in France in March 2016 and
+                    the third phase in Serbia and Kosovo, November 2016.
+                  </p>
+                  <span class="education__year">11/2015 - 11/2016</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Transitional Justice School</h3>
+                  <span class="education__studies"
+                    >Humanitarian Law Center - HLC, Belgrade, Serbia</span
+                  >
+                  <span class="education__year">03/2016 – 05/2016</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    ODIHR Training on Human Rights Monitoring and Safety and
+                    Security
+                  </h3>
+                  <span class="education__studies"
+                    >ODIHR - The Office for Democratic Insitutions and Human
+                    Rights, Warsaw Budva, Montenegro</span
+                  >
+                  <span class="education__year">10/2016</span>
+                </div>
+              </div>
+
+               <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Peace and Conflict Summer Program 2017
+                  </h3>
+                  <span class="education__studies"
+                    >RIT Kosovo™ (A.U.K) - Rochester Institute of Technology,
+                    Kosovo Prishtina, Kosovo</span
+                  >
+                  <span class="education__year">06/2017 – 07/2017</span>
+                </div>
+              </div>
+
+               <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                 </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Training in Project Managment
+                  </h3>
+                  <span class="education__studies"
+                    >Balkan Investigative Regional Reporting Network Tirana,
+                    Albania</span
+                  >
+                  <span class="education__year">10/2020</span>
+                </div>
+              </div> 
+            </div>
+          </section>
+
+
+          <!-- Experience -->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Work experience</h2>
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  
+                  <h3 class="experience__title">Program coordinator (Transitional Justice and Human Rights)</h3>
+                  <span class="experience__company"
+                    >Youth Initiative for Human Rights, YIHR Serbia, Belgrade (Serbia) </span
+                  ><span class="experience__company"
+                  >01/09/2016 – 31/012019</span
+                >
+                  <p class="experience__description">
+                    The Youth Initiative for Human Rights is a regional network of non-governmental organizations with programs on the territories of Serbia, Kosovo, Croatia, Montenegro and Bosnia and Herzegovina. The Youth Initiative for Human Rights promotes the truth, justice, responsibility and equality as the basic
+                    </br></br>
+                    Projects: Regional Exchange Programs (2015-2019), RECOM Campaign (2017), Organisation of Zagreb Youth Summit (2017), Coordination Political Youth Network, PYN, (2017-2018), Miredita, Dobar dan Festival (2017-2019), World Youth Movement for Democracy (2018)
+                  </br></br>
+                    Tasks: Implementation of project activities, project management, writing project proposals and project reports, coordination of activists’’ network, writing public statements, writing policy papers,
+                    communication with political parties and public institutions, meetings with states’ representatives
+
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Coordinator of Human Rights Monitoring Programme, BIRN Hub
+                  </h3>
+                  <span class="experience__company"
+                    >Balkan Investigative Regional Reporting Network, Office in Belgrade </span
+                  ><span class="experience__company"
+                  >01/02/2019 – Present</span
+                >
+                  <p class="experience__description">
+                    Coordinating projects dealing with the monitoring of human rights such as: Resonant Voices Initiative and Digital Rights Monitoring within BIRN’s Investigative Resource Desk – BIRD. Assisting in creation, launching and content publishing of Reporting Democracy platform.
+                  </p>
+                </div>
+              </div>
+
+             <!--  <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                   <span class="expwrience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">MOBILE APP DEV</h3>
+                  <span class="experience__company"
+                    >From 2010 to 2015 | Facebook Inc.</span
+                  >
+                  <p class="experience__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum nihil ratione laborum laudantium veniam aspernatur
+                    voluptatum molestiae, tenetur unde facilis rem.
+                  </p>
+                </div>
+              </div> -->
+
+            </div>
+          </section>
+
+          <!-- Certificates -->
+
+          <section class="certificate section" id="certificates">
+              <h2 class="section-title">Skills</h2>
+              <div class="certificate__container bd-grid">
+                  <div class="certificate__content">
+
+                      <h3 class="certificate__title">Communication skills </h3>
+                      <p class="certificate__description">&#9679; good ability to listen and work towards resolving conflicts reaching a win-win situation for all, and
+                        adaptability to different opinions gained through years of experience and training in human
+                        resource management sector, working in different teams both in terms of structure and
+                        nationality</p><br>
+                        <p class="certificate__description">&#9679; good skills in e-mail and narrative communication efficiency and responsibility for delivered
+                          messages</p><br>
+                          <p class="certificate__description">&#9679; clear speaker, effective in responding to questions, ability to pass message to the audience
+                          </p>
+                  </div>
+
+                  <div class="certificate__content">
+                    <h3 class="certificate__title">Organisational /managerial skills </h3>
+                    <p class="certificate__description">&#9679; ability to see the whole picture of the activity and to set priorities in work, plan and act
+                      accordingly in cooperation with other members of the team, respecting hierarchy of acting and
+                      reporting
+                      </p><br>
+                      <p class="certificate__description">&#9679; high priority set on planning correctly to avoid mistakes and prevent inconveniences and
+                        difficulties in the process of completing any and each task required for successful completion of
+                        the work</p><br>
+                        <p class="certificate__description">&#9679; ability to manage time, act efficiently on any ad hoc activities, highly organised
+                        </p>
+                </div>
+
+                <div class="certificate__content">
+                  <h3 class="certificate__title">Job – related skills </h3>
+                  <p class="certificate__description">&#9679; experienced in managing projects funded by the EU, and overseeing implementation of activities</p><br>
+                    <p class="certificate__description">&#9679; skilled and experienced in conducting analyses, field research, and monitoring</p><br>
+                      <p class="certificate__description">&#9679; able to motivate and initiate creative work environment and aid and guide staff towards the
+                        achievement of the goals
+                      </p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">Computer skills</h3>
+                <p class="certificate__description">&#9679; excellent overall computer skills</p><br>
+                  <p class="certificate__description">&#9679; good online research skills in finding relevant data</p><br>
+                    <p class="certificate__description">&#9679; creating social media strategies for promotion of different project results
+                    </p>
+                    <br>
+                    <p class="certificate__description">&#9679; fully literate with all MS Office data and word applications, including Word, Excel, Access,
+                      PowerPoint, Outlook etc.
+                    </p>
+                    <br>
+                    <p class="certificate__description">&#9679; proficient user of both Windows and MacOS platforms
+                    </p>
+            </div>
+
+            <div class="certificate__content">
+              <h3 class="certificate__title">Other skills </h3>
+              <p class="certificate__description">&#9679; quick learner and easily adaptable to various situations and environments; acting well under
+                pressure and in crisis situations, having worked in conflict and post-conflict situations, and in
+                multi - national environments;</p><br>
+                <p class="certificate__description">&#9679; proficient user of all office equipment (fax, scanner, radio and satellite communication
+                  equipment, etc.)
+                  </p><br>
+          </div>
+              </div>
+          </section>
+
+<!-- Public performances -->
+
+<section class="certificate section" id="articles">
+  <h2 class="section-title">Public performances</h2>
+  <div class="certificate__container bd-grid">
+      <div class="certificate__content">
+
+          <h3 class="certificate__title">Articles</h3>
+          <p class="public__description">&#9679; <a class="email__add" target="_blank" href="https://bird.tools/we-mustnt-sacrifice-the-health-of-our-freedoms/">We Mustn’t Sacrifice the Health of Our Freedoms</a> </p><br>
+            <p class="public__description">&#9679; <a class="email__add" target="_blank" href="https://balkaninsight.com/2020/04/23/why-serbian-media-scorned-a-peace-message-from-srebrenica/">Why Serbian Media Scorned a Peace Message from Srebrenica</a> </p><br>
+              <p class="public__description">&#9679; <a class="email__add" target="_blank" href="https://balkaninsight.com/2020/10/13/civil-society-has-found-its-voice-in-the-balkan-pandemic/">Civil Society Filled a Void in the Balkan Pandemic</a> 
+              </p><br>
+              <p class="public__description">&#9679; <a class="email__add" target="_blank" href="https://balkaninsight.com/2020/09/10/internet-governance-key-to-media-freedom-in-albania/">Internet Governance Key to Media Freedom in Albania</a> 
+              </p><br>
+              <p class="public__description">&#9679; <a class="email__add" target="_blank" href="https://balkaninsight.com/2020/08/31/see-digital-rights-network-established-2/"> SEE Digital Rights Network Established</a>
+              </p>
+              <br>
+              <p class="public__description">&#9679; <a class="email__add" target="_blank" href="https://bird.tools/wp-content/uploads/2020/06/From-Cures-to-Curses-Manipulation-Flourishes-in-the-Digital-Environment-1.pdf"> Report on the state of Digital Rights during COVID-19 pandemic
+              </a>
+              </p>
+      </div>
+
+      <div class="certificate__content">
+        <h3 class="certificate__title">Interviews </h3>
+        <p class="public__description">&#9679; <a class="email__add" target="_blank" href="https://civitates-eu.org/2021/03/30/enjoying-the-internet-while-staying-safe-online/"> Enjoying the internet while staying safe online</a>
+          </p><br>
+          <p class="public__description">&#9679; <a class="email__add" target="_blank" href="https://civitates-eu.org/2020/03/20/disinformation-online-leads-to-negative-consequences-offline/">Disinformation online leads to negative consequences offline</a> </p><br>
+          <p class="public__description">&#9679; <a class="email__add" target="_blank" href="https://talas.rs/2020/10/27/geneza-i-trendovi-ekstremne-desnice-u-danasnjoj-srbiji/"> Geneza i trendovi ekstremne desnice u današnjoj Srbiji</a>
+          </p>
+          </div>
+          <div class="certificate__content">
+            <h3 class="certificate__title">Documentaries </h3>
+            <p class="public__description">&#9679; <a class="email__add" target="_blank" href="https://www.youtube.com/watch?v=ve0R_DwHKUU&t=315s"> Who Defends Defenders: Traitors and Patriots - Human Rights Defenders</a></p><br>
+        </div>  </div>
+</section>
+
+        </div>
+        <!-- Right end -->
+      </div>
+    </main>
+
+    <!-- Scroll top -->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+<!-- html2pdf script -->
+
+<script src="html2pdf.bundle.min.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
