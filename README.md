@@ -1,1 +1,1 @@
-# softo-resume
+# soft-resume
